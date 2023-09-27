@@ -1,13 +1,13 @@
 body {
-    background-color: powderblue;
+    background-color: darkblue;
   }
   h1 {
-    color: blue;
+    color: crimson;
     text-align:center;
     font-family:system-ui;
   }
   p {
-    color: red;
+    color: seagreen;
     font-size:larger;
     font-family:system-ui;
   }
