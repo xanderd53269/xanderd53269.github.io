@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <title>Multimedia Things</title>
+<link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <p>paragraph text here</p>
+<img src="xanderd53269.github.io/web110/Tetris_block.svg" alt="Vector image of Tetris blocks">
   </body>
 </html>
