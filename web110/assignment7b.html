@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Databases/SQL</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>SQL Summary</h1>
+    <p>Databases and SQL are familiar sounding, but I have no prior experience with either of these concepts, but after completing the assignment and the tutorials, I have a much better understanding of these topics. In the activities, I learned how to filter a database by one of it’s values, which I know will be very useful if I ever need to use a database, I also learned how to update a database, count a specific value, add new information, and specifically for retrieving information, you can use the select command to retrieve all data, as the where command is for specific data. I can use all of this in my future environment if I ever decide to become a research analyst, or maybe more likely if I wanted to focus entirely on SQL, I could become a SQL developer, and be managing databases full time. I could also apply this by making my own database, perhaps if I ever start a business, I could use it to keep track of important data, for easier retrieval. </p>
+
+    
+    <ul>
+<li>SELECT * FROM Customers;</li>
+<p>Finds all customers, since no "FROM" is specified. In general it simply selects data from the database and shows it.</p>      
+<li>SELECT * FROM Customers
+WHERE Country='USA';</li>
+<p> Finds all Customers from the USA, acts like a filter, showing all data within the specified criteria.</p>      
+<li>SELECT COUNT(*)
+FROM Products;</li>
+<p>The count shows in numbers how many rows have what has been specified, in this case the Products rows.</p>
+<li>INSERT INTO Customers (CustomerName, ContactName, Address, City, PostalCode, Country)
+VALUES ('Cardinal','Tom B. Erichsen','Skagen 21','Stavanger','4006','Norway');</li>      
+<p>The insert into command creates new records, in this case customer info.</p>
+<li>UPDATE Customers
+SET ContactName='Alfred Schmidt', City='Frankfurt'
+WHERE CustomerID=1;
+</li>
+<p>Like the command name implies, it updates already existing records, so in this case it updates the first customer's name and city, as the ID is 1.</p>      
+    </ul>
+
+  </body>
+</html>
